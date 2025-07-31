@@ -28,7 +28,7 @@ int Kaprekar_Routine4(int a)
 		for(i=0;i<4;i++)
 		{
 			asc=(asc*10)+digits[i];
-			desc=(desc*10)+digits[3-i];
+			desc=(desc*10)+digits[3-i];	//Making the numbers into ascending and descending orders
 		}
 		printf("\nThe digits of the number %d in Ascending Order are %d", k, asc);
 		printf("\nThe digits of the number %d in Descending Order are %d", k, desc);
